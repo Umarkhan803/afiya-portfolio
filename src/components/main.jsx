@@ -263,7 +263,7 @@ const Main = () => {
                     href="mailto:noorafiya2003@gmail.com"
                     class="contact-value"
                   >
-                    noorafiya2003@gmail.com
+                    noorafiya786@gmail.com
                   </a>
                 </div>
               </div>
