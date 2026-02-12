@@ -249,8 +249,10 @@ const Main = () => {
             </div>
           </div>
         </section>
+        {/* contact section */}
         <section id="contact" class="section contact-section">
           <div class="container contact-container">
+            <div class="contact-inner">
             <h2 class="contact-main-title">Contact Information</h2>
             <div class="contact-info-grid">
               <div class="contact-info-item">
@@ -294,6 +296,7 @@ const Main = () => {
                   <span class="contact-value">Mon - Fri: 11AM - 6PM</span>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </section>

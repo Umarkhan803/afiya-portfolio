@@ -378,7 +378,7 @@ body {
 }
 
 .contact-section {
-  padding: 4rem 2rem 5rem;
+  padding: 2.2rem 2rem 3rem;
   background: var(--bg);
 }
 
@@ -386,6 +386,12 @@ body {
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
+}
+
+.contact-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-main-title {
@@ -399,10 +405,10 @@ body {
 .contact-info-grid {
   display: flex;
   flex-direction: column;
-  margin: 0 200px;
+  margin: 0 auto 2.5rem;
+  max-width: 400px;
   align-items: start;
   gap: 1.5rem;
-  margin-bottom: 2.5rem;
 }
 
 .contact-info-item {
@@ -540,5 +546,74 @@ a.contact-value:hover {
 
   .timeline-year {
     margin-bottom: 0.25rem;
+  }
+
+  /* Contact section – tablet and below */
+  .contact-section {
+    padding: 3rem 1.5rem 4rem;
+  }
+
+  .contact-container {
+    max-width: 100%;
+  }
+
+  .contact-main-title {
+    font-size: 1.35rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-info-grid {
+    margin: 0 1rem 2rem;
+    gap: 1.25rem;
+  }
+
+  .contact-info-item {
+    gap: 0.75rem;
+  }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .contact-label {
+    font-size: 0.9rem;
+  }
+
+  .contact-value {
+    font-size: 0.85rem;
+    word-break: break-word;
+  }
+}
+
+/* Contact – small phones */
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 2.5rem 1rem 3.5rem;
+  }
+
+  .contact-main-title {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-info-grid {
+    margin: 0 0 1.5rem;
+    gap: 1rem;
+  }
+
+  .contact-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 0.95rem;
+  }
+
+  .contact-label {
+    font-size: 0.85rem;
+  }
+
+  .contact-value {
+    font-size: 0.8rem;
   }
 }
